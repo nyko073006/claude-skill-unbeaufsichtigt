@@ -1,5 +1,12 @@
 # unbeaufsichtigt — Aufgabe allein zu Ende bringen
 
+> **Umgezogen:** Dieser Skill wird nur noch in [`nyko073006/claudecodeskills/unbeaufsichtigt`](https://github.com/nyko073006/claudecodeskills/tree/main/unbeaufsichtigt) gepflegt (aktuell v1.4.1 mit Nachtschicht und Nachtwache-Hook). Dieses Repo bleibt auf Stand 1.3.0 stehen.
+>
+> ```bash
+> git clone https://github.com/nyko073006/claudecodeskills.git
+> cp -R claudecodeskills/unbeaufsichtigt ~/.claude/skills/unbeaufsichtigt
+> ```
+
 Wer Claude Code allein weiterarbeiten laesst, findet beim Zurueckkommen oft einen roten Stand auf `main` vor, und die Annahmen, die Claude unterwegs getroffen hat, stehen nur im Schlussbericht, der laengst weggescrollt ist. Dieser Skill legt fest, wie ein unbeaufsichtigter Lauf endet: keine Rueckfragen, jede Annahme im Repo (`DECISIONS.md` und `ASSUMPTION:` im Code), hoechstens drei Fix-Versuche je Fehler, Arbeit auf einem eigenen Branch und ein dokumentierter Blocker, wenn etwas nicht durchgeht.
 
 ![unbeaufsichtigt Ablauf](unbeaufsichtigt-overview.png)
